@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+
+.nameBig {
+	font-family: 'Bebas Neue', cursive;
+	font-size: 5rem;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+	color: #343434;
+}
+.bebasFont {
+	font-family: 'Bebas Neue', cursive;
+}
+
+.cites{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    
+}
+
+.navbar {
+    transition: all 0.3s ease-in-out;
+}
+
+.fixed-top{
+    box-shadow: 0 0 5px 0 #666;
+}
+.nav-link {
+    color: #000000;
+    border-bottom: solid transparent 1px;
+}
+
+.nav-link:hover{
+    color: rgb(255,193,7);
+    border-bottom: solid rgb(255,193,7) 1px;
+}
