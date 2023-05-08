@@ -33,3 +33,13 @@
     color: rgb(255,193,7);
     border-bottom: solid rgb(255,193,7) 1px;
 }
+
+.btn-outline-warning a{
+    text-decoration:  none;
+    color: rgb(255,193,7) ;
+}
+
+.btn-outline-warning a::after{
+    text-decoration:  none;
+    color: rgb(255,193,7) ;
+}
