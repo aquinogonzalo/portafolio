@@ -60,4 +60,10 @@ footer {
     color: #bdbdbd;
 }
 
-
+/*Este estilo limita que las imagenes en el carrusel deformen la pagina al crecer
+ademas object fit cover hace que no se deformen al ser modificadas*/
+.carousel-item img {
+    max-width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
