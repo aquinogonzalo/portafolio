@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
 
+/*Estos estilos aplican a los textos del home*/
 .nameBig {
 	font-family: 'Bebas Neue', cursive;
 	font-size: 5rem;
@@ -16,6 +17,7 @@
     
 }
 
+/*Estilos del navbar*/
 .navbar {
     transition: all 0.3s ease-in-out;
 }
@@ -33,6 +35,7 @@
     border-bottom: solid rgb(255,193,7) 1px;
 }
 
+/*Este estilo aplica unicamente al interior de los botones del home los de abajo de la cita*/
 .btn-outline-warning a{
     text-decoration:  none;
     color: rgb(0, 0, 0) ;
@@ -43,11 +46,18 @@
     color: rgb(0, 0, 0) ;
 }
 
-#stack{
-    box-shadow: 0 0 6px 0 #666;
-    color: rgb(255, 255, 255);
+/* Este estilo aplica al main del home y empuja lo mas abajo posible al footer(al resto de elementos)*/
+.fpush{
+    height: 85vh;
+}
+@media (max-width: 768px) {
+    .fpush {
+        height: auto;
+    }
 }
 
-.viewport-normal {
-    height: auto;
+footer {
+    color: #bdbdbd;
 }
+
+
