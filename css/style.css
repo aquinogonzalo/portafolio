@@ -32,9 +32,12 @@
 
 .nav-link:hover{
     color: rgb(255,193,7);
-    border-bottom: solid rgb(255,193,7) 1px;
+    border-bottom: solid rgb(255, 221, 119) 1px;
 }
 
+.active{
+    border-bottom: solid rgb(255,193,7) 1px;
+}
 /*Este estilo aplica unicamente al interior de los botones del home los de abajo de la cita*/
 .btn-outline-warning a{
     text-decoration:  none;
@@ -94,4 +97,8 @@ ademas object fit cover hace que no se deformen al ser modificadas*/
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
     opacity: 0.5;
+}
+
+.service-info{
+    padding-top: 10px;
 }
