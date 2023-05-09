@@ -67,3 +67,31 @@ ademas object fit cover hace que no se deformen al ser modificadas*/
     max-height: 400px;
     object-fit: cover;
 }
+
+
+.card-title{
+    color: rgb(255,193,7);
+}
+
+/*Galeria con grid*/
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* define 4 columnas iguales, 1fr es una fraccion del espacio desponible */
+    gap: 10px;
+}
+
+.gallery-item {
+    overflow: hidden; /* recorta el contenido que sobresale */
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* evita que la imagen se deforme al reescalarla */
+}
+
+.gallery-item img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    opacity: 0.5;
+}
