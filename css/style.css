@@ -102,3 +102,37 @@ ademas object fit cover hace que no se deformen al ser modificadas*/
 .service-info{
     padding-top: 10px;
 }
+
+
+
+/*estilo para lista de contacto*/
+.listacustom {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+    align-items: center;
+
+
+}
+
+/*estilos que aplican a los a dentro de la lista de contacto*/
+.estiloa{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #666;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.estiloa:hover{
+    text-decoration: none;
+    color: rgb(255,193,7);
+    font-size: 30px;    
+}
+
+/*estilo que aplica al img de contacts*/
+#contacto{
+    height: 150px;
+}
