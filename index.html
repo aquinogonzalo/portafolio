@@ -22,7 +22,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto ">
                         <li class="nav-item">
-                            <a class="nav-link activegi" aria-current="page" href="#home">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
                         </li>
                         <li class="nav-item">
@@ -41,29 +41,32 @@
     </header>
     <!--Empieza el home-->
     <main class="fpush">
-        <div class="container w-100" id="home">
-            <div class="row d-flex align-items-center justify-content-center py-100">
-                <div class="col-sm-7 col-md-6 ">
-                    <h1 class="nameBig">Alejandro Aquino</h1>
-                    <h2 class="bebasFont">＜web-developer class="front-end"/＞</h2>
-                        <p class="cites">"Hey! I'm Alejandro Aquino, a front-end developer based on Formosa, Argentina, focused on technologies such as HTML, CSS, React and JavaScript."</p>
-                        <!--Aca estan los botones amarillos-->
-                        <div class="btn-group" role="group" aria-label="Basic outlined example">
-                            <button type="button" class="btn btn-outline-warning">
-                                <a href="https://www.linkedin.com/in/gonzalo-alejandro-aquino-94367423a/" target="_blank">LinkedIn</a>
-                            </button>
-                            <button type="button" class="btn btn-outline-warning">
-                                <a href="https://github.com/aquinogonzalo" target="_blank">GitHub</a>
-                            </button>
-                        </div>
+        <!--Tenemos una section donde vamos a tener tanto la imagen como el texto que integran el home-->
+        <section>
+            <div class="container w-100" id="home">
+                <div class="row d-flex align-items-center justify-content-center py-100">
+                    <div class="col-sm-7 col-md-6 ">
+                        <h1 class="nameBig">Alejandro Aquino</h1>
+                        <h2 class="bebasFont">＜web-developer class="front-end"/＞</h2>
+                            <p class="cites">"Hey! I'm Alejandro Aquino, a front-end developer based on Formosa, Argentina, focused on technologies such as HTML, CSS, React and JavaScript."</p>
+                            <!--Aca estan los botones amarillos-->
+                            <div class="btn-group" role="group" aria-label="Basic outlined example">
+                                <button type="button" class="btn btn-outline-warning">
+                                    <a href="https://www.linkedin.com/in/gonzalo-alejandro-aquino-94367423a/" target="_blank">LinkedIn</a>
+                                </button>
+                                <button type="button" class="btn btn-outline-warning">
+                                    <a href="https://github.com/aquinogonzalo" target="_blank">GitHub</a>
+                                </button>
+                            </div>
+                    </div>
+                    <!--Aca esta la imagen responsiva-->
+                    <div class=" col-sm-5 col-md-6 my-3 border-0 ">
+                        <img class="img-fluid" src="img/alejandro-cara.png" alt="Alejandro Aquino">
+                    </div>
                 </div>
-                <!--Aca esta la imagen responsiva-->
-                <div class=" col-sm-5 col-md-6 my-3 border-0 ">
-                    <img class="img-fluid" src="img/alejandro-cara.png" alt="Alejandro Aquino">
-                </div>
+                    <!--Aca termina el home-->
             </div>
-                <!--Aca termina el home-->
-        </div>
+        </section>
     </main> 
     <!--Aca abro un aside, que solo está por la estructura semantica-->
         <aside>
